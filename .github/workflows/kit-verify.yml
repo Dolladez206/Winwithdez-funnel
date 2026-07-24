@@ -1,0 +1,25 @@
+name: Kit — verify setup
+
+# Read-only check of the Kit account for the Win With Dez funnel.
+# It confirms the API key works, that form 9723242 exists, and lists sequences
+# so you can confirm the nurture sequence was built. It does NOT create or
+# change anything in Kit (the sequence + automation are built in the dashboard
+# per kit-automation-setup.md — the Kit API cannot create them).
+#
+# Run it manually from the Actions tab. KIT_API_KEY comes from repo secrets.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Verify Kit account, form, and sequences
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+        run: node scripts/kit-verify.mjs
