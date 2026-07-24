@@ -196,8 +196,9 @@ No income or health outcome is guaranteed. This email is general information, no
 ### Email 6 — 2 days later
 **Subject:** `Whenever you're ready — both doors are open`
 
-> ⚠️ **Before this goes live, replace the link placeholder below with the real
-> LiveGood affiliate link.** See the pre-launch checklist.
+> The button/text below links to the real LiveGood affiliate URL
+> (`https://www.livegood.com/bosslady`). Link the `[Join Win With Dez →]`
+> text to that URL when you paste this email into Kit.
 
 ```
 Hi {{ subscriber.first_name | default: "there" }},
@@ -207,7 +208,7 @@ No new pitch today — just making it easy to act if you've decided either path 
 → Just the products: Join as a Member for $9.95/month or $99.95/year. Wholesale pricing, cancel anytime.
 → Products + the option to earn: Add the one-time $40 affiliate option when you join.
 
-[Join Win With Dez →]   ← link this button/text to the real LiveGood affiliate URL
+[Join Win With Dez →]   ← link this to https://www.livegood.com/bosslady
 
 Whatever you decide, thank you for giving this an honest look. That's all I ever wanted.
 
@@ -250,8 +251,8 @@ form enters the 6-email sequence starting immediately.
 
 - [ ] All 6 sequence emails are **Published** (not Draft).
 - [ ] Delays match Day 0 / 2 / 4 / 6 / 8 / 10.
-- [ ] **Email 6's `[Join Win With Dez →]` is linked to the real LiveGood
-      affiliate URL** (currently a placeholder).
+- [ ] **Email 6's `[Join Win With Dez →]` is linked to the LiveGood affiliate
+      URL** `https://www.livegood.com/bosslady`.
 - [ ] Earnings + health **disclosures are intact** in every email.
 - [ ] The Rule/Automation connecting form `9723242` → sequence is **live**.
 - [ ] The Kit account is registered under **the wife's name/email** (ownership);
