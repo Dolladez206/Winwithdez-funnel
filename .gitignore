@@ -1,0 +1,22 @@
+# Environment / secrets — Kit API keys and affiliate links must never be committed
+.env
+.env.*
+*.local
+secrets.json
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
