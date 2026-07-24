@@ -125,7 +125,7 @@ No new pitch today — just making it easy to act if you've decided either path 
 **→ Just the products:** Join as a Member for $9.95/month or $99.95/year. Wholesale pricing, cancel anytime.
 **→ Products + the option to earn:** Add the one-time $40 affiliate option when you join.
 
-[Join Win With Dez →] *(link placeholder — inserted once your affiliate link is added)*
+[Join Win With Dez →](https://www.livegood.com/bosslady)
 
 Whatever you decide, thank you for giving this an honest look. That's all I ever wanted.
 
@@ -139,4 +139,4 @@ Whatever you decide, thank you for giving this an honest look. That's all I ever
 - Trigger: form submission from the Win With Dez landing page
 - Send schedule: Email 1 immediate, then Day 2 / 4 / 6 / 8 / 10 from opt-in
 - Merge tag `{first_name}` pulls from the landing page form field
-- Replace the placeholder link in Email 6 with the actual LiveGood affiliate link before activating
+- Email 6's call-to-action links to the LiveGood affiliate URL: https://www.livegood.com/bosslady
