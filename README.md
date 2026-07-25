@@ -56,7 +56,7 @@ repo and point it at the branch root.
 - [ ] Wire `submitLead()` to your real email list
 - [ ] Fill in `privacy.html` with your actual policy
 - [ ] Update contact email and any legal disclaimers
-- [ ] Add a real Open Graph share image
+- [ ] Point `og:image` at your full absolute URL once the domain is live
 
 ## Favicon / app icons
 
@@ -74,3 +74,20 @@ in every format browsers and devices ask for:
 To regenerate them after a color change, re-run
 `scripts/make_favicon.py` (pure Python, no dependencies) or just edit
 `favicon.svg` directly.
+
+## Social share image (Open Graph)
+
+`og-image.png` (1200×630) is the preview card shown when the funnel link is
+posted to Facebook, Instagram, iMessage, X, etc. It's referenced by the
+`og:image` / `twitter:image` tags in `index.html`.
+
+To edit it, change `scripts/og-template.html` (plain HTML/CSS) and re-render:
+
+```bash
+NODE_PATH="$(npm root -g)" node scripts/make_og.js
+```
+
+This screenshots the template with Playwright/Chromium at 2× for crisp text.
+**Before launch**, update the `og:image` tag to your full absolute URL
+(e.g. `https://yourdomain.com/og-image.png`) — some scrapers ignore relative
+paths.

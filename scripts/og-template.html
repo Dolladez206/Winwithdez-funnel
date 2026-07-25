@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1200px; height: 630px; }
+    body {
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      color: #fff;
+      background:
+        radial-gradient(900px 500px at 82% -8%, rgba(165,216,107,.30), transparent 60%),
+        radial-gradient(760px 520px at 4% 108%, rgba(92,186,60,.34), transparent 58%),
+        #232a23;
+      position: relative;
+      overflow: hidden;
+      padding: 64px 72px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* Big translucent watermark check on the right */
+    .watermark {
+      position: absolute; right: -70px; top: 50%; transform: translateY(-50%);
+      width: 560px; height: 560px; opacity: .10;
+    }
+
+    /* Brand lockup */
+    .brand { display: flex; align-items: center; gap: 18px; }
+    .emblem {
+      width: 74px; height: 74px; border-radius: 20px;
+      background: linear-gradient(135deg, #5cba3c, #2f9e2a);
+      display: grid; place-items: center;
+      box-shadow: 0 18px 40px -14px rgba(92,186,60,.75);
+    }
+    .emblem svg { width: 44px; height: 44px; }
+    .wordmark { font-size: 40px; font-weight: 800; letter-spacing: -.02em; }
+    .wordmark .dez { color: #a5d86b; }
+
+    /* Center content */
+    .main { max-width: 860px; }
+    .pill {
+      display: inline-block; font-size: 20px; font-weight: 800; letter-spacing: .14em;
+      text-transform: uppercase; color: #232a23;
+      background: linear-gradient(135deg, #a5d86b, #5cba3c);
+      padding: 10px 20px; border-radius: 999px; margin-bottom: 26px;
+    }
+    h1 {
+      font-size: 92px; font-weight: 900; line-height: .98; letter-spacing: -.03em;
+    }
+    h1 .grad {
+      background: linear-gradient(100deg, #5cba3c, #a5d86b);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .sub {
+      font-size: 30px; color: #cdd6cb; font-weight: 500; margin-top: 26px; max-width: 760px;
+      line-height: 1.35;
+    }
+
+    /* Footer row */
+    .footer { display: flex; align-items: center; gap: 26px; }
+    .footer .dot { width: 8px; height: 8px; border-radius: 50%; background: #5cba3c; }
+    .footer span { font-size: 24px; font-weight: 700; color: #e6efe3; }
+    .footer .muted { color: #8fa389; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <svg class="watermark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M4.5 12.5l4.5 4.5L19.5 6.5" stroke="#5cba3c" stroke-width="3"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <div class="brand">
+    <span class="emblem">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M4.5 12.5l4.5 4.5L19.5 6.5"
+        stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <span class="wordmark">Win With <span class="dez">Dez</span></span>
+  </div>
+
+  <div class="main">
+    <span class="pill">Free step-by-step system</span>
+    <h1>Stop guessing.<br /><span class="grad">Start winning.</span></h1>
+    <p class="sub">The proven plan thousands use to build income and momentum online — no experience needed.</p>
+  </div>
+
+  <div class="footer">
+    <span class="dot"></span>
+    <span>10,000+ people started here</span>
+    <span class="muted">•&nbsp;&nbsp;100% free to start</span>
+  </div>
+</body>
+</html>
