@@ -90,9 +90,16 @@ em { font-style: normal; background: linear-gradient(transparent 60%, rgba(92,18
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; }
 .brand-mark {
   display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px;
-  background: var(--grad); color: #fff; font-weight: 900; font-size: .95rem; letter-spacing: -.03em;
+  background: var(--grad); color: #fff;
+  box-shadow: 0 8px 18px -8px rgba(92,186,60,.7);
 }
-.brand-name { font-size: 1.05rem; }
+.brand-mark svg { width: 20px; height: 20px; }
+/* Wordmark: "Win With" in ink, "Dez" in brand green */
+.brand-name {
+  font-size: 1.2rem; font-weight: 800; letter-spacing: -.02em;
+  line-height: 1; color: var(--ink);
+}
+.brand-name .w-dez { color: var(--brand); }
 .nav { margin-left: auto; display: flex; gap: 22px; font-weight: 600; color: var(--ink-soft); }
 .nav a:hover { color: var(--ink); }
 .site-header .btn { margin-left: 8px; }
@@ -192,6 +199,7 @@ em { font-style: normal; background: linear-gradient(transparent 60%, rgba(92,18
 .site-footer { background: var(--bg); color: #c7cbe0; padding: 44px 0; }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; }
 .footer-brand .brand-name { color: #fff; }
+.footer-brand .brand-name .w-dez { color: var(--brand-3); }
 .footer-legal { font-size: .82rem; color: #8a90ad; max-width: 46ch; margin: 0; }
 .footer-nav { display: flex; gap: 20px; font-weight: 600; }
 .footer-nav a:hover { color: #fff; }
