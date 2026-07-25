@@ -56,4 +56,21 @@ repo and point it at the branch root.
 - [ ] Wire `submitLead()` to your real email list
 - [ ] Fill in `privacy.html` with your actual policy
 - [ ] Update contact email and any legal disclaimers
-- [ ] Add real Open Graph image + favicon
+- [ ] Add a real Open Graph share image
+
+## Favicon / app icons
+
+The brand emblem (green rounded square + checkmark) is the site icon, provided
+in every format browsers and devices ask for:
+
+| File | Use |
+|------|-----|
+| `favicon.svg` | Modern browsers (scales infinitely) |
+| `favicon.ico` | Legacy fallback (16 + 32px) |
+| `favicon-16.png`, `favicon-32.png` | Tab icons |
+| `apple-touch-icon.png` | iOS home screen (180px) |
+| `icon-192.png`, `icon-512.png` | Android / PWA (via `site.webmanifest`) |
+
+To regenerate them after a color change, re-run
+`scripts/make_favicon.py` (pure Python, no dependencies) or just edit
+`favicon.svg` directly.

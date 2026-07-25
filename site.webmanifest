@@ -1,0 +1,11 @@
+{
+  "name": "Win With Dez",
+  "short_name": "Win With Dez",
+  "icons": [
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#5cba3c",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
