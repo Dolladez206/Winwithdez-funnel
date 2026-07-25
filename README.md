@@ -38,11 +38,19 @@ python3 -m http.server 8000
 `index.html`. Placeholder testimonials and stats are marked in context; swap
 them for real ones.
 
-**Lead capture** — by default submitted emails are saved to `localStorage`
-(so nothing is lost while you set up). To send leads to a real service, edit
-the `submitLead()` function in `script.js` and point the `fetch()` at your
-email provider or CRM (Mailchimp, ConvertKit, a webhook, etc.). The example is
-already stubbed in the comments.
+**Lead capture (Mailchimp)** — the opt-in forms subscribe leads straight to
+your Mailchimp audience, no server required. To go live, paste **one value**:
+
+1. In Mailchimp: **Audience → Sign up forms → Embedded form**.
+2. Copy the URL inside `<form action="…">` — it ends in
+   `/subscribe/post?u=XXXX&id=YYYY`.
+3. Open `script.js` and set that as `MAILCHIMP_URL` near the top.
+
+That's it. The script converts it to Mailchimp's JSONP endpoint automatically,
+so it works on any static host with no backend and no CORS setup. "Already
+subscribed" is treated as success; other errors show Mailchimp's message under
+the form. While `MAILCHIMP_URL` is left blank, emails are saved to
+`localStorage` so nothing is lost during setup.
 
 ## Deploy
 
