@@ -1,81 +1,62 @@
-# Strategy, Voice & Rules — Win With Dez
+# Strategy, Voice & Brand — Win With Dez (Attraction Marketing)
 
-This is the "brain" behind the content. Desiree doesn't need to read it to post,
-but it explains *why* the content is built the way it is.
-
----
-
-## The core angle: "The Costco of Wellness"
-The membership **is** the product. For a small membership fee, people get
-wholesale pricing (roughly 50–75% off) on quality, doctor-formulated supplements
-— some USDA-organic. No store to walk into; it ships to your door. Just like a
-Costco membership gets you wholesale prices, this membership does the same for
-wellness. **Membership has its privileges.**
-
-This framing wins because it's:
-- **Instantly understood** (everyone knows Costco).
-- **Honest** — no hype, no miracle claims.
-- **Two doors in one:** save money on stuff you already buy, *and* an optional
-  way to earn by sharing it.
+> **Approach: sell the LIFE, not the company.** Desiree does attraction marketing.
+> She shares her real life — travel, fun, freedom, family, self-care — and the
+> right people lean in and ask *"how do you get to live like that?"* The link is
+> the answer, not the pitch.
 
 ---
 
-## Who we're talking to (two people, one funnel)
-
-**1. The Value Seeker** — tired of overpaying for vitamins/supplements; health-
-conscious; loves a smart deal. Hook them with *price + quality*.
-
-**2. The "Something Different" Seeker** — wants income from home / beyond the
-9–5; maybe has sales or network-marketing history; **skeptical of scams.** Hook
-them with *honesty + a model that makes sense.*
-
-> The skeptic angle is the secret weapon. Leading with "here's the honest truth,
-> ask me the hard questions" **out-converts hype** for this exact audience.
-
-### Their real pain points (speak to these, don't sell at them)
-- Paycheck disappears before month's end; want breathing room.
-- Burned out trading time for money; want flexibility.
-- Been burned by scammy "opportunities"; need proof it's real and low-risk.
-- Overpay for supplements and suspect they're getting ripped off.
-- Want guidance and community, not a hard pitch.
+## The rules (this is the whole game)
+- ✅ **Show the life.** Airports, planes, road trips, friends & family, fun,
+  beauty, energy, joy, self-care. Exciting, lively, aspirational.
+- 🚫 **Don't sell. Don't tell.** No prices, no "here's what it costs," no
+  explaining the company or the comp plan. Rarely even name the company.
+- 🎯 **Attach the brand to feelings:** freedom, wealth, wisdom, knowledge, love,
+  personal self-care, escaping the 9–5 rat race. *Embody* those, then drop the link.
+- 🔗 **Soft CTA → her capture page:** "link in bio," "DM me DEZ," "comment ✨."
+  The link goes to **winwithdez.com**, which pre-enrolls the lead by email
+  (captures them — it does *not* auto-make them an affiliate).
+- 📈 **Attract first, answer later.** Get them curious and captured; the
+  conversation and details come after, from Desiree.
 
 ---
 
-## The voice
-First-person, warm, plainspoken — like Desiree talking to a friend over coffee.
-30+ years of real experience; a grandmother who's seen it all and won't BS you.
-**Never salesy. Never hyped.** Confidence comes from honesty, not exclamation
-points. She should tweak any wording to sound like *herself*.
+## Who we attract (leads, not "targets")
+Fun, lively people who love to travel and want more life — and quietly wonder if
+there's a way out of the everyday grind. Not chasing get-rich-quick; craving
+**freedom, flexibility, and a life that feels like hers.**
 
 ---
 
-## Non-negotiable rules (compliance + protecting her credit)
-1. **Brand = "Win With Dez."** CTA is always **winwithdez.com** or "link in bio."
-2. **Never name the company** in public posts (protects her affiliate credit).
-3. **No income promises** — say "results depend on your effort," "no guarantees."
-4. **No health/medical claims** — "not a doctor," "supplements aren't magic,"
-   focus on quality/value, not curing anything.
-5. **Always on-screen captions** on video (most people watch muted).
-6. **Hook in the first 1–3 seconds** — a real pain point or curiosity gap.
+## The brand look (professional, high-level)
+- **Color:** align with LiveGood's identity — **greens** (fresh, wellness,
+  premium). Clean, aspirational, consistent. Think high-end wellness brand,
+  not a discount flyer.
+- **Feel:** polished, warm, energetic, premium. Beautiful and confident —
+  matching Desiree: smart, fun, energetic, beautiful.
+- 🚫 **Never** cheesy stock, awkward "salesy" faces, or anything that looks cheap.
+- **Consistency:** same fonts, same green accents, same clean captions on every
+  piece — so her feed reads as one premium brand.
 
-Suggested disclaimer to keep handy (append when talking money or products):
-> *Not a promise of income — results depend on your own effort. Not medical
-> advice; consult your doctor before starting any supplement.*
+## How the pro content actually gets made
+The high-level look comes from **Desiree's own real footage** — her at the
+airport, in the car, with family, living it — which I then **polish**: clean
+captions, color, music, and consistent Win With Dez branding. AI stock is *not*
+her brand. Short version: **she films the moment, I make it look premium.**
 
 ---
 
-## Hook bank (reusable openers)
-- "If [pain], but you're tired of scammy pitches — 20 seconds."
-- "You're probably overpaying for ___. Here's what they don't tell you."
-- "'Isn't this just an MLM?' Good. Ask that. Here's my honest answer."
-- "I ignored this for [X] years. Here's what changed my mind."
-- "Nobody's coming to save your budget. So here's what I did instead."
-- "Three things I wish someone told me before I turned 50 and broke."
-- "Stop scrolling if you've ever said 'there has to be another way.'"
+## Still non-negotiable (compliance)
+- No income promises ("results depend on effort"). No health/medical claims.
+- Keep it honest — the freedom is real *because of the work*, and we say so.
 
-## Hashtag bank (mix 5–10 per post; rotate)
-Broad: `#workfromhome #sidehustle #extraincome #financialfreedom #wfh`
-Audience: `#sidehustleforwomen #over40 #grandmalife #momsofinstagram #careerchange`
-Wellness: `#wholesalewellness #supplements #healthonabudget #wellnessjourney`
-Brand: `#winwithdez #membershiphasitsprivileges #honestincome #cotscoofwellness`
-(Keep a few niche + a few broad. Avoid banned/spammy tags like #makemoneyfast.)
+---
+
+## Voice
+Desiree: beautiful, smart, fun, energetic, warm, real. First-person, joyful,
+confident — never desperate, never pitchy. She's *living* it and inviting you in.
+
+*(Her exact voice + aesthetic will be matched to her actual videos — see the
+example she's sending. The old "Costco / honest-pitch" calendar is retired;
+new content will be built in this attraction style once her style is confirmed.)*
