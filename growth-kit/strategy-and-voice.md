@@ -29,6 +29,18 @@ there's a way out of the everyday grind. Not chasing get-rich-quick; craving
 
 ---
 
+## Desiree's brand board (read from her own photos)
+- **Her look:** glamorous, fit, confident, radiant. Signature: oversized designer
+  sunglasses, statement sparkle jewelry, bold pink lip, sleek long hair, chic
+  monochrome (all-black / all-white) outfits, heels. Fashion-forward "boss lady."
+- **Her scenes:** elegant home interiors, outdoor concerts/events, celebrations,
+  dressed up with family — always *living well*.
+- **Her energy:** joyful, aspirational, warm, "my best life." She vibes/sings to
+  music — fun and free.
+- **Editing her clips:** keep her glam palette (black/white + silver/gold sparkle);
+  use **Win With Dez green** only as the accent (tagline + end card) so it ties to
+  the brand without fighting her look. Clean bold captions. Upbeat, feel-good music.
+
 ## The brand look (professional, high-level)
 - **Color:** align with LiveGood's identity — **greens** (fresh, wellness,
   premium). Clean, aspirational, consistent. Think high-end wellness brand,
