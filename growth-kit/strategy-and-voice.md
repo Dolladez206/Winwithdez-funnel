@@ -1,6 +1,6 @@
 # Strategy, Voice & Rules — Win With Dez
 
-This is the "brain" behind the content. Deseret doesn't need to read it to post,
+This is the "brain" behind the content. Desiree doesn't need to read it to post,
 but it explains *why* the content is built the way it is.
 
 ---
@@ -42,7 +42,7 @@ them with *honesty + a model that makes sense.*
 ---
 
 ## The voice
-First-person, warm, plainspoken — like Deseret talking to a friend over coffee.
+First-person, warm, plainspoken — like Desiree talking to a friend over coffee.
 30+ years of real experience; a grandmother who's seen it all and won't BS you.
 **Never salesy. Never hyped.** Confidence comes from honesty, not exclamation
 points. She should tweak any wording to sound like *herself*.

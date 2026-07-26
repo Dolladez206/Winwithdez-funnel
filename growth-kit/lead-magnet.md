@@ -1,7 +1,7 @@
 # Lead Magnet — "The No-BS Checklist"
 
 A free 1-page giveaway that pulls in the exact skeptical, smart audience we want.
-It positions Deseret as the *honest* one, and gives people a reason to hand over
+It positions Desiree as the *honest* one, and gives people a reason to hand over
 their email — which feeds the **Kit funnel we already built** (form 9723242 →
 6-email nurture → winwithdez.com).
 

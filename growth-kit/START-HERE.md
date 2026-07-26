@@ -1,7 +1,7 @@
 # Win With Dez — Growth Kit 🚀
 
 This kit is a **done-for-you content engine** to drive new eyes to
-**winwithdez.com**. It was built so Deseret has to do as little as possible —
+**winwithdez.com**. It was built so Desiree has to do as little as possible —
 just film/post ready-made content. No writing, no strategy, no guesswork.
 
 ---
@@ -18,7 +18,7 @@ just film/post ready-made content. No writing, no strategy, no guesswork.
 
 ## The ONLY thing a human has to do: post it
 Everything is written. The single human step is **publishing** — that has to be
-Deseret (it's her face + her accounts). Here's the lightest possible routine:
+Desiree (it's her face + her accounts). Here's the lightest possible routine:
 
 ### Option A — 15 minutes a day (simplest)
 1. Open **30-day-content-calendar.md**, find today's day number.
@@ -31,7 +31,7 @@ Deseret (it's her face + her accounts). Here's the lightest possible routine:
 ### Option B — Batch once a week (even easier, free)
 - Facebook + Instagram let you **schedule posts for free** in **Meta Business
   Suite** (business.facebook.com → "Planner" → "Create post" → set date/time).
-- Deseret films 5–7 videos in one sitting, then schedules the whole week.
+- Desiree films 5–7 videos in one sitting, then schedules the whole week.
   Now it posts itself, hands-off, all week.
 - TikTok: its built-in scheduler (on desktop) also posts for free up to 10 days out.
 
