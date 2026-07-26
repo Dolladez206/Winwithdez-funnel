@@ -1,0 +1,473 @@
+<title>Win With Dez — Growth Playbook</title>
+<meta name="description" content="A done-for-you daily content playbook for Win With Dez. Open, copy, post." />
+<style>
+  :root {
+    --ground: #F4F7F3;
+    --paper: #FFFFFF;
+    --ink: #1B241E;
+    --ink-soft: #4E5B52;
+    --line: #DCE6DD;
+    --green: #1F5C43;
+    --green-soft: #E7F0E9;
+    --honey: #B7791F;
+    --honey-soft: #F6ECD8;
+    --shadow: 0 1px 2px rgba(27,36,30,.04), 0 8px 24px -16px rgba(27,36,30,.28);
+    --maxw: 660px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #10160F;
+      --paper: #18211A;
+      --ink: #E9F0E9;
+      --ink-soft: #9DAB9F;
+      --line: #263129;
+      --green: #5BB68C;
+      --green-soft: #1B2A21;
+      --honey: #E0A94A;
+      --honey-soft: #2A2417;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #F4F7F3; --paper: #FFFFFF; --ink: #1B241E; --ink-soft: #4E5B52;
+    --line: #DCE6DD; --green: #1F5C43; --green-soft: #E7F0E9; --honey: #B7791F;
+    --honey-soft: #F6ECD8; --shadow: 0 1px 2px rgba(27,36,30,.04), 0 8px 24px -16px rgba(27,36,30,.28);
+  }
+  :root[data-theme="dark"] {
+    --ground: #10160F; --paper: #18211A; --ink: #E9F0E9; --ink-soft: #9DAB9F;
+    --line: #263129; --green: #5BB68C; --green-soft: #1B2A21; --honey: #E0A94A;
+    --honey-soft: #2A2417; --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px -18px rgba(0,0,0,.7);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6; font-size: 17px;
+  }
+  .serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif; }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+  h1, h2, h3 { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; line-height: 1.15; text-wrap: balance; margin: 0; }
+  p { margin: 0; }
+
+  .eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: .72rem; font-weight: 700; color: var(--honey); }
+
+  /* Header */
+  header { padding: 40px 0 28px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark { width: 40px; height: 40px; border-radius: 11px; background: var(--green); display: grid; place-items: center; flex: none; box-shadow: var(--shadow); }
+  .mark svg { width: 22px; height: 22px; }
+  .brand-name { font-size: 1.35rem; font-weight: 600; letter-spacing: -.01em; }
+  .brand-name b { color: var(--green); font-weight: 700; }
+  h1.title { font-size: clamp(1.9rem, 6vw, 2.6rem); font-weight: 500; margin: 24px 0 10px; }
+  .lede { color: var(--ink-soft); font-size: 1.06rem; max-width: 46ch; }
+
+  /* The one job */
+  .onejob {
+    margin: 26px 0 8px; background: var(--green); color: #fff; border-radius: 16px;
+    padding: 22px 22px; box-shadow: var(--shadow);
+  }
+  .onejob .eyebrow { color: #EBD9AE; }
+  .onejob h2 { color: #fff; font-size: 1.3rem; font-weight: 600; margin: 6px 0 8px; }
+  .onejob p { color: rgba(255,255,255,.9); font-size: .98rem; }
+
+  section { padding: 30px 0; }
+  .section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px; }
+  .section-head h2 { font-size: 1.5rem; font-weight: 500; }
+  .muted { color: var(--ink-soft); }
+
+  /* Cards */
+  .card { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 18px 18px; box-shadow: var(--shadow); }
+  .stack { display: flex; flex-direction: column; gap: 14px; }
+  .rules { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip { font-size: .82rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: var(--green-soft); color: var(--green); border: 1px solid transparent; }
+  .chip.warn { background: var(--honey-soft); color: var(--honey); }
+
+  .quickstart p { margin-bottom: 10px; }
+  .quickstart b { color: var(--ink); }
+  .quickstart ol { margin: 6px 0 0; padding-left: 20px; color: var(--ink-soft); }
+  .quickstart li { margin: 4px 0; }
+
+  /* Week + day */
+  .week-label { display: flex; align-items: center; gap: 10px; margin: 34px 0 14px; }
+  .week-num { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 1.05rem; font-weight: 700; color: var(--honey); }
+  .week-label h3 { font-size: 1.25rem; font-weight: 500; }
+  .week-rule { flex: 1; height: 1px; background: var(--line); }
+
+  .day { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 16px 16px 14px; box-shadow: var(--shadow); }
+  .day + .day { margin-top: 12px; }
+  .day-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .day-no { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-weight: 700; color: var(--green); font-size: 1.02rem; font-variant-numeric: tabular-nums; }
+  .tag { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 3px 9px; border-radius: 6px; }
+  .tag.video { background: var(--green-soft); color: var(--green); }
+  .tag.text { background: var(--honey-soft); color: var(--honey); }
+  .tag.image { background: var(--honey-soft); color: var(--honey); }
+  .hook { font-weight: 600; margin-bottom: 6px; }
+  .hook::before { content: "🎬 "; }
+  .day.text .hook::before, .day.image .hook::before { content: "✍️ "; }
+  .script { color: var(--ink-soft); font-size: .95rem; margin-bottom: 12px; }
+  .script .lab { color: var(--green); font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+  .cap { font-size: .92rem; background: var(--ground); border: 1px dashed var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 10px; }
+  .cap .tags { color: var(--green); display: block; margin-top: 4px; font-size: .85rem; }
+
+  button.copy {
+    -webkit-appearance: none; appearance: none; cursor: pointer; font: inherit;
+    display: inline-flex; align-items: center; gap: 7px; font-size: .86rem; font-weight: 600;
+    color: #fff; background: var(--green); border: none; border-radius: 9px; padding: 9px 14px;
+    transition: transform .12s ease, background .2s ease;
+  }
+  button.copy:hover { transform: translateY(-1px); }
+  button.copy:active { transform: translateY(0); }
+  button.copy.done { background: var(--honey); }
+  button.copy:focus-visible { outline: 3px solid var(--honey); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { button.copy { transition: none; } }
+
+  .lead { background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--honey); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); }
+  .lead h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: 8px; }
+  .lead ol { margin: 8px 0 0; padding-left: 22px; }
+  .lead li { margin: 6px 0; }
+  .lead li b { color: var(--green); }
+
+  footer { padding: 34px 0 60px; color: var(--ink-soft); font-size: .88rem; text-align: center; }
+  .cta-link { color: var(--green); font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--honey); }
+  .disclaimer { font-size: .82rem; color: var(--ink-soft); font-style: italic; margin-top: 8px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4.5 12.5l4.5 4.5L19.5 6.5" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="brand-name serif">Win With <b>Dez</b></span>
+    </div>
+
+    <p class="eyebrow" style="margin-top:26px;">Daily Growth Playbook</p>
+    <h1 class="title">30 days of content, already written.</h1>
+    <p class="lede">Open it, film or copy today's post, and share it. That's the whole job — no writing, no strategy, no guesswork.</p>
+
+    <div class="onejob">
+      <p class="eyebrow">The only thing you do</p>
+      <h2>Post one a day. Everything else is done.</h2>
+      <p>Video days: read the script into your phone, one honest take. Text/image days: tap <b>Copy caption</b> and paste. Facebook first, then reshare to Instagram &amp; TikTok.</p>
+    </div>
+  </header>
+
+  <section aria-label="Quick start">
+    <div class="card quickstart">
+      <p class="eyebrow" style="color:var(--green)">Two ways to run it</p>
+      <p style="margin-top:8px"><b>Daily (15 min):</b> do today's number, post it, done.</p>
+      <p><b>Batch (hands-off):</b> film a week at once, then schedule it all free in <b>Meta Business Suite</b> → Planner. Now it posts itself all week.</p>
+      <div class="rules">
+        <span class="chip">Brand: Win With Dez</span>
+        <span class="chip warn">Never name the company</span>
+        <span class="chip warn">No income or health promises</span>
+        <span class="chip">Every link → winwithdez.com</span>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="The angle">
+    <div class="section-head"><h2 class="serif">The angle</h2></div>
+    <p class="muted" style="margin-bottom:14px">Everything leans on one idea people instantly get:</p>
+    <div class="card">
+      <p><b>"The Costco of wellness."</b> The membership <em>is</em> the product — a small fee unlocks wholesale pricing on quality, doctor-formulated supplements. Two doors in one: <b>save</b> on what you already buy, and an <b>optional</b> way to earn by sharing it. Honesty is the hook — leading with the truth out-converts hype for skeptical people.</p>
+    </div>
+  </section>
+
+  <section aria-label="30 day calendar">
+    <div class="section-head"><h2 class="serif">The 30 days</h2><span class="muted" style="font-size:.9rem">tap “Copy caption” to post</span></div>
+
+    <!-- WEEK 1 -->
+    <div class="week-label"><span class="week-num">Week 1</span><h3 class="serif">Build trust</h3><span class="week-rule"></span></div>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 1</span><span class="tag video">Video</span></div>
+      <p class="hook">"I'm a grandmother of 19, I've been in this 30+ years, and I'm not here to sell you a dream."</p>
+      <p class="script"><span class="lab">Say:</span> I'm here to show you something that finally made sense to me — a way to save real money on wellness, and if you want, earn a little sharing it. No hype. Just the honest version. → It lives at winwithdez.com.</p>
+      <div class="cap" data-caption="30 years in, and I still lead with the truth. If you've been looking for something real, start here 👉 winwithdez.com&#10;&#10;#winwithdez #workfromhome #over40 #honestincome #sidehustleforwomen">30 years in, and I still lead with the truth. If you've been looking for something real, start here 👉 winwithdez.com<span class="tags">#winwithdez #workfromhome #over40 #honestincome #sidehustleforwomen</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 2</span><span class="tag video">Video</span></div>
+      <p class="hook">"Tired of your paycheck gone before the month is — but also tired of every 'work from home' thing feeling like a scam? 20 seconds."</p>
+      <p class="script"><span class="lab">Say:</span> I ignored this for years. What changed my mind wasn't a promise of getting rich — nobody can promise that. It was a model that made sense: low cost to start, real products people reorder monthly, no pressure to recruit an army. → The honest version's at winwithdez.com.</p>
+      <div class="cap" data-caption="I won't promise you a number. I'll just show you the truth 👉 winwithdez.com&#10;&#10;#sidehustle #financialfreedom #winwithdez #workfromhomelife #extraincome">I won't promise you a number. I'll just show you the truth 👉 winwithdez.com<span class="tags">#sidehustle #financialfreedom #winwithdez #workfromhomelife #extraincome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 3</span><span class="tag text">Text</span></div>
+      <p class="hook">Engagement question</p>
+      <div class="cap" data-caption="Honest question: if you could add $500 a month without picking up a second job, what would you do with it first? 👇 (No wrong answers — I'm genuinely curious.)&#10;&#10;#extraincome #sidehustleforwomen #workfromhome #winwithdez">Honest question: if you could add $500 a month without picking up a second job, what would you do with it first? 👇 (No wrong answers — I'm genuinely curious.)<span class="tags">#extraincome #sidehustleforwomen #workfromhome #winwithdez</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 4</span><span class="tag video">Video</span></div>
+      <p class="hook">"'Isn't this just one of those MLM things?' Good. Ask that. Here's my honest answer."</p>
+      <p class="script"><span class="lab">Say:</span> Yes, you can earn if you refer people — I won't pretend otherwise. The difference: the company makes money from people buying products they'd buy anyway, not from sign-ups. No recruiting bonuses, no pressure, no garage full of inventory. → No-hype version: winwithdez.com.</p>
+      <div class="cap" data-caption="Ask me the hard questions. I'll always give it to you straight 👉 winwithdez.com&#10;&#10;#honestincome #networkmarketing #winwithdez #realtalk">Ask me the hard questions. I'll always give it to you straight 👉 winwithdez.com<span class="tags">#honestincome #networkmarketing #winwithdez #realtalk</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day image">
+      <div class="day-top"><span class="day-no">Day 5</span><span class="tag image">Image / Quote</span></div>
+      <p class="hook">Quote graphic</p>
+      <div class="cap" data-caption="Membership has its privileges. 💳 Costco figured it out. Car washes figured it out. Now wellness has too. Curious? 👉 winwithdez.com&#10;&#10;#membershiphasitsprivileges #wholesalewellness #winwithdez #smartmoney">Membership has its privileges. 💳 Costco figured it out. Car washes figured it out. Now wellness has too. Curious? 👉 winwithdez.com<span class="tags">#membershiphasitsprivileges #wholesalewellness #winwithdez #smartmoney</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 6</span><span class="tag video">Video</span></div>
+      <p class="hook">"Nobody's coming to save your budget. So here's what I did instead."</p>
+      <p class="script"><span class="lab">Say:</span> I'm not rich. I'm a grandma who got tired of watching prices go up and my dollar shrink. So I found a model that pays me back a little every month — and I stopped waiting for permission. → If you're done waiting too: winwithdez.com.</p>
+      <div class="cap" data-caption="Done waiting? Same. 👉 winwithdez.com&#10;&#10;#over40 #financialfreedom #winwithdez #workfromhome">Done waiting? Same. 👉 winwithdez.com<span class="tags">#over40 #financialfreedom #winwithdez #workfromhome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 7</span><span class="tag text">Text</span></div>
+      <p class="hook">Weekly recap + invite</p>
+      <div class="cap" data-caption="This week I've shared the honest version of what I do. No pitch. If even one thing made you go 'hmm, tell me more' — the door's open, no pressure: winwithdez.com 🙏&#10;&#10;#winwithdez #sidehustleforwomen #honestincome">This week I've shared the honest version of what I do. No pitch. If even one thing made you go 'hmm, tell me more' — the door's open, no pressure: winwithdez.com 🙏<span class="tags">#winwithdez #sidehustleforwomen #honestincome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <!-- WEEK 2 -->
+    <div class="week-label"><span class="week-num">Week 2</span><h3 class="serif">The value (Costco of wellness)</h3><span class="week-rule"></span></div>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 8</span><span class="tag video">Video</span></div>
+      <p class="hook">"You're probably overpaying for your vitamins by 300%. Here's what the supplement industry won't tell you."</p>
+      <p class="script"><span class="lab">Say:</span> Most of what you pay is markup, marketing, and a middleman — not the product. There's a membership model — think Costco, but for wellness — where you skip all that. Same quality, fraction of the price. → Price it yourself at winwithdez.com.</p>
+      <div class="cap" data-caption="Already buying supplements? You'll want to see this 👉 winwithdez.com&#10;&#10;#wholesalewellness #supplements #healthonabudget #winwithdez">Already buying supplements? You'll want to see this 👉 winwithdez.com<span class="tags">#wholesalewellness #supplements #healthonabudget #winwithdez</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day image">
+      <div class="day-top"><span class="day-no">Day 9</span><span class="tag image">Carousel</span></div>
+      <p class="hook">Compare: retail vs. member</p>
+      <div class="cap" data-caption="Retail supplement = product + markup + marketing + middleman. Membership = closer to what it actually costs to make. Same quality. Members-only price. 👉 winwithdez.com&#10;&#10;#supplementsavings #wholesalewellness #winwithdez #wellnessjourney">Retail supplement = product + markup + marketing + middleman. Membership = closer to what it actually costs to make. Same quality. Members-only price. 👉 winwithdez.com<span class="tags">#supplementsavings #wholesalewellness #winwithdez #wellnessjourney</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 10</span><span class="tag video">Video</span></div>
+      <p class="hook">"Cheap and good usually don't go together. Here's the exception."</p>
+      <p class="script"><span class="lab">Say:</span> Low price normally means low quality. Not here — because the model cuts the markup, not the quality. Doctor-formulated, some USDA-organic. I'm not a doctor and supplements aren't magic — but I know a fair price when I see one. → winwithdez.com.</p>
+      <div class="cap" data-caption="Quality and a fair price. Rare combo 👉 winwithdez.com&#10;&#10;#wholesalewellness #cleansupplements #winwithdez #healthonabudget">Quality and a fair price. Rare combo 👉 winwithdez.com<span class="tags">#wholesalewellness #cleansupplements #winwithdez #healthonabudget</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 11</span><span class="tag text">Text</span></div>
+      <p class="hook">Engagement</p>
+      <div class="cap" data-caption="What do you spend a month on vitamins, protein, or coffee? Drop a number 👇 I bet I can show you the same stuff for a lot less.&#10;&#10;#supplements #smartmoney #winwithdez #wholesalewellness">What do you spend a month on vitamins, protein, or coffee? Drop a number 👇 I bet I can show you the same stuff for a lot less.<span class="tags">#supplements #smartmoney #winwithdez #wholesalewellness</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 12</span><span class="tag video">Video</span></div>
+      <p class="hook">"The smartest money move isn't spending less — it's paying wholesale for what you already buy."</p>
+      <p class="script"><span class="lab">Say:</span> Vitamins, greens, protein, even coffee — if it's already in your cart every month, why pay retail? A membership gets you member pricing on all of it. → See the list: winwithdez.com.</p>
+      <div class="cap" data-caption="Stop paying retail for your monthly basics 👉 winwithdez.com&#10;&#10;#membershiphasitsprivileges #winwithdez #wholesalewellness #budgettips">Stop paying retail for your monthly basics 👉 winwithdez.com<span class="tags">#membershiphasitsprivileges #winwithdez #wholesalewellness #budgettips</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day image">
+      <div class="day-top"><span class="day-no">Day 13</span><span class="tag image">Image / Quote</span></div>
+      <p class="hook">Quote graphic</p>
+      <div class="cap" data-caption="He didn't build it to feel like an MLM. He built it to cut the markup and hand you the savings. That's the whole idea. 👉 winwithdez.com&#10;&#10;#winwithdez #honestbusiness #wholesalewellness">He didn't build it to feel like an MLM. He built it to cut the markup and hand you the savings. That's the whole idea. 👉 winwithdez.com<span class="tags">#winwithdez #honestbusiness #wholesalewellness</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 14</span><span class="tag text">Text</span></div>
+      <p class="hook">Recap + soft CTA</p>
+      <div class="cap" data-caption="This week's theme: you're probably overpaying for wellness, and it's fixable. No pressure — but if you're curious what member pricing looks like, it's all at winwithdez.com 💚&#10;&#10;#winwithdez #wholesalewellness #healthonabudget">This week's theme: you're probably overpaying for wellness, and it's fixable. No pressure — but if you're curious what member pricing looks like, it's all at winwithdez.com 💚<span class="tags">#winwithdez #wholesalewellness #healthonabudget</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <!-- WEEK 3 -->
+    <div class="week-label"><span class="week-num">Week 3</span><h3 class="serif">The opportunity (honestly)</h3><span class="week-rule"></span></div>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 15</span><span class="tag video">Video</span></div>
+      <p class="hook">"Stop scrolling if you've ever said 'there has to be another way to make money.'"</p>
+      <p class="script"><span class="lab">Say:</span> There is — but it's not a lottery ticket. It's a membership business where you can give yourself a raise by helping others save. The drive has to come from you. No hype. Just a real, low-cost door. → winwithdez.com.</p>
+      <div class="cap" data-caption="Another way exists. It just requires you 👉 winwithdez.com&#10;&#10;#sidehustle #workfromhome #winwithdez #financialfreedom #over40">Another way exists. It just requires you 👉 winwithdez.com<span class="tags">#sidehustle #workfromhome #winwithdez #financialfreedom #over40</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 16</span><span class="tag video">Video</span></div>
+      <p class="hook">"This isn't just a US thing. It's worldwide."</p>
+      <p class="script"><span class="lab">Say:</span> One reason I love this: it's global. People in dozens of countries can do this. A worldwide membership model — and you can build it from your phone, on your own time. → See if it fits you: winwithdez.com.</p>
+      <div class="cap" data-caption="Global. From your phone. On your time 👉 winwithdez.com&#10;&#10;#globalbusiness #workfromhome #winwithdez #remotelife">Global. From your phone. On your time 👉 winwithdez.com<span class="tags">#globalbusiness #workfromhome #winwithdez #remotelife</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 17</span><span class="tag text">Text</span></div>
+      <p class="hook">Engagement</p>
+      <div class="cap" data-caption="Raise your hand 🙋 if you're not looking to get rich quick — you just want a real, honest way to earn a little extra on the side. That's exactly who this is for.&#10;&#10;#honestincome #sidehustleforwomen #winwithdez">Raise your hand 🙋 if you're not looking to get rich quick — you just want a real, honest way to earn a little extra on the side. That's exactly who this is for.<span class="tags">#honestincome #sidehustleforwomen #winwithdez</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 18</span><span class="tag video">Video</span></div>
+      <p class="hook">"What if you could give yourself a raise every month — without asking a boss?"</p>
+      <p class="script"><span class="lab">Say:</span> That's the part that got me. Every membership you help start can pay you back. No cap set by a manager. But real talk — most people who try any referral thing earn modestly or nothing. It's effort in, results out. → Honest look: winwithdez.com.</p>
+      <div class="cap" data-caption="No boss. No cap. No promises either — just effort 👉 winwithdez.com&#10;&#10;#winwithdez #sidehustle #financialfreedom #realtalk">No boss. No cap. No promises either — just effort 👉 winwithdez.com<span class="tags">#winwithdez #sidehustle #financialfreedom #realtalk</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day image">
+      <div class="day-top"><span class="day-no">Day 19</span><span class="tag image">Image / Quote</span></div>
+      <p class="hook">Quote graphic</p>
+      <div class="cap" data-caption="I've been to the events. I've seen the checks. I won't promise you'll get one — but I'll tell you they're real, and they come from work. 👉 winwithdez.com&#10;&#10;#winwithdez #workfromhome #honestincome">I've been to the events. I've seen the checks. I won't promise you'll get one — but I'll tell you they're real, and they come from work. 👉 winwithdez.com<span class="tags">#winwithdez #workfromhome #honestincome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 20</span><span class="tag video">Video</span></div>
+      <p class="hook">"The reason I finally said yes: I had almost nothing to lose."</p>
+      <p class="script"><span class="lab">Say:</span> Low cost to join. No inventory. No quotas. If it's not for you, you walk away having lost basically nothing. That's the opposite of every scary 'opportunity' I'd seen. → winwithdez.com.</p>
+      <div class="cap" data-caption="Low cost. Low risk. Zero pressure 👉 winwithdez.com&#10;&#10;#sidehustle #winwithdez #workfromhome #over40">Low cost. Low risk. Zero pressure 👉 winwithdez.com<span class="tags">#sidehustle #winwithdez #workfromhome #over40</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 21</span><span class="tag text">Text</span></div>
+      <p class="hook">Recap + invite</p>
+      <div class="cap" data-caption="If you've been waiting for a 'sign' to look into something different — this is me, waving 👋. No pressure, no pitch. Just the door: winwithdez.com.&#10;&#10;#winwithdez #sidehustleforwomen #honestincome">If you've been waiting for a 'sign' to look into something different — this is me, waving 👋. No pressure, no pitch. Just the door: winwithdez.com.<span class="tags">#winwithdez #sidehustleforwomen #honestincome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <!-- WEEK 4 -->
+    <div class="week-label"><span class="week-num">Week 4</span><h3 class="serif">Proof &amp; invitation</h3><span class="week-rule"></span></div>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 22</span><span class="tag video">Video</span></div>
+      <p class="hook">"The #1 question I get: 'Okay, what's it actually cost?'"</p>
+      <p class="script"><span class="lab">Say:</span> Way less than people expect — a low monthly or yearly membership, and it pays for itself in savings on stuff you already buy. I'll show you the exact numbers. → winwithdez.com.</p>
+      <div class="cap" data-caption="The real numbers, no runaround 👉 winwithdez.com&#10;&#10;#winwithdez #wholesalewellness #honestincome">The real numbers, no runaround 👉 winwithdez.com<span class="tags">#winwithdez #wholesalewellness #honestincome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 23</span><span class="tag video">Video</span></div>
+      <p class="hook">"'Do I have to sell to my friends?' Nope. Here's the truth."</p>
+      <p class="script"><span class="lab">Say:</span> You can join just for the member savings and never share a thing. Selling is optional — it's there if you want it, invisible if you don't. → winwithdez.com.</p>
+      <div class="cap" data-caption="Join just to save. Sharing is optional 👉 winwithdez.com&#10;&#10;#winwithdez #wholesalewellness #workfromhome">Join just to save. Sharing is optional 👉 winwithdez.com<span class="tags">#winwithdez #wholesalewellness #workfromhome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 24</span><span class="tag text">Text</span></div>
+      <p class="hook">Engagement</p>
+      <div class="cap" data-caption="What's stopped you from trying something like this before? Be honest 👇 — 'I got scammed,' 'no time,' 'sounds too good.' I've heard them all, and I respect every one.&#10;&#10;#winwithdez #realtalk #sidehustleforwomen">What's stopped you from trying something like this before? Be honest 👇 — 'I got scammed,' 'no time,' 'sounds too good.' I've heard them all, and I respect every one.<span class="tags">#winwithdez #realtalk #sidehustleforwomen</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 25</span><span class="tag video">Video</span></div>
+      <p class="hook">"'Sounds too good to be true.' I said the same thing. Here's what I found."</p>
+      <p class="script"><span class="lab">Say:</span> It's not too good — it's just a smarter model. Low overhead, no markup, savings passed to you. Boring, honestly. And boring-but-real beats exciting-but-fake every time. → Check it yourself: winwithdez.com.</p>
+      <div class="cap" data-caption="Boring but real &gt; exciting but fake 👉 winwithdez.com&#10;&#10;#winwithdez #honestbusiness #wholesalewellness">Boring but real &gt; exciting but fake 👉 winwithdez.com<span class="tags">#winwithdez #honestbusiness #wholesalewellness</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day image">
+      <div class="day-top"><span class="day-no">Day 26</span><span class="tag image">Image / Quote</span></div>
+      <p class="hook">Quote graphic</p>
+      <div class="cap" data-caption="I'm not selling you a dream. I'm handing you a door. Whether you walk through is 100% up to you. 👉 winwithdez.com&#10;&#10;#winwithdez #honestincome #workfromhome">I'm not selling you a dream. I'm handing you a door. Whether you walk through is 100% up to you. 👉 winwithdez.com<span class="tags">#winwithdez #honestincome #workfromhome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 27</span><span class="tag video">Video</span></div>
+      <p class="hook">"Let me save you time — this is NOT for everyone."</p>
+      <p class="script"><span class="lab">Say:</span> If you want money for nothing, keep scrolling. If you're willing to put in a little effort for something honest and low-cost — the door's open. I'll help, but I can't want it for you. → winwithdez.com.</p>
+      <div class="cap" data-caption="Not for everyone. Maybe for you 👉 winwithdez.com&#10;&#10;#winwithdez #sidehustle #realtalk #over40">Not for everyone. Maybe for you 👉 winwithdez.com<span class="tags">#winwithdez #sidehustle #realtalk #over40</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day text">
+      <div class="day-top"><span class="day-no">Day 28</span><span class="tag text">Text</span></div>
+      <p class="hook">Free checklist tease</p>
+      <div class="cap" data-caption="I made a free 1-page checklist: '7 Questions That Expose a Fake Work-From-Home Offer in 60 Seconds.' Want it? Comment 'CHECKLIST' or grab it 👉 winwithdez.com&#10;&#10;#winwithdez #sidehustleforwomen #honestincome">I made a free 1-page checklist: '7 Questions That Expose a Fake Work-From-Home Offer in 60 Seconds.' Want it? Comment 'CHECKLIST' or grab it 👉 winwithdez.com<span class="tags">#winwithdez #sidehustleforwomen #honestincome</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 29</span><span class="tag video">Video</span></div>
+      <p class="hook">"If you've watched me this month and thought 'maybe' — this one's for you."</p>
+      <p class="script"><span class="lab">Say:</span> You don't have to decide anything today. Just go look. Read it, price it, ask me anything. No pressure, no pitch, no catch — that's a promise I can make. → winwithdez.com. I read every message.</p>
+      <div class="cap" data-caption="Just go look. That's all 👉 winwithdez.com&#10;&#10;#winwithdez #workfromhome #honestincome #sidehustleforwomen">Just go look. That's all 👉 winwithdez.com<span class="tags">#winwithdez #workfromhome #honestincome #sidehustleforwomen</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+
+    <article class="day video">
+      <div class="day-top"><span class="day-no">Day 30</span><span class="tag video">Video</span></div>
+      <p class="hook">"30 days of honesty. Here's where it leaves us."</p>
+      <p class="script"><span class="lab">Say:</span> Thank you for letting me show up in your feed without hype. Whether you're here for the savings or the opportunity, the door stays open. When you're ready, I'm here. → winwithdez.com. 💚</p>
+      <div class="cap" data-caption="Thank you. The door stays open 👉 winwithdez.com&#10;&#10;#winwithdez #honestincome #wholesalewellness #over40">Thank you. The door stays open 👉 winwithdez.com<span class="tags">#winwithdez #honestincome #wholesalewellness #over40</span></div>
+      <button class="copy" type="button">Copy caption</button>
+    </article>
+  </section>
+
+  <section aria-label="Lead magnet">
+    <div class="section-head"><h2 class="serif">The free giveaway</h2></div>
+    <div class="lead">
+      <h3>"7 Questions That Expose a Fake Work-From-Home Offer in 60 Seconds"</h3>
+      <p class="muted">Post it as an image/carousel, or use it as a "comment CHECKLIST and I'll send it" hook. It pulls in exactly the skeptical, smart people we want — and positions you as the honest one.</p>
+      <ol>
+        <li><b>Where does the money come from?</b> Real product sales — or mostly sign-ups?</li>
+        <li><b>What's the cost, and what do I get?</b> Low and clear — or big and vague?</li>
+        <li><b>Do I have to recruit to win?</b> You should be able to benefit without selling.</li>
+        <li><b>Are the income claims honest?</b> 🚩 "You'll get rich" = run.</li>
+        <li><b>Any pressure or fake countdown?</b> Real offers are still there tomorrow.</li>
+        <li><b>Can I see products, prices, ingredients?</b> Transparency = trust.</li>
+        <li><b>Can I walk away cheaply?</b> Low exit risk = low risk to try.</li>
+      </ol>
+      <p style="margin-top:12px">Close: <em>Most offers fail two of these. Found one that passes all seven? That's what I do — no hype.</em> 👉 <a class="cta-link" href="https://winwithdez.com">winwithdez.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Win With Dez — Growth Playbook. Post daily, lead with honesty, send everyone to <a class="cta-link" href="https://winwithdez.com">winwithdez.com</a>.</p>
+    <p class="disclaimer">Not a promise of income — results depend on your own effort. Not medical advice; consult your doctor before starting any supplement.</p>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    document.querySelectorAll("button.copy").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var card = btn.closest(".day");
+        var capEl = card ? card.querySelector(".cap") : null;
+        var text = capEl ? (capEl.getAttribute("data-caption") || capEl.textContent) : "";
+        var done = function () {
+          var original = "Copy caption";
+          btn.textContent = "Copied ✓";
+          btn.classList.add("done");
+          setTimeout(function () { btn.textContent = original; btn.classList.remove("done"); }, 1600);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done).catch(function () { fallback(text); done(); });
+        } else { fallback(text); done(); }
+      });
+    });
+    function fallback(text) {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", "");
+      ta.style.position = "absolute"; ta.style.left = "-9999px";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+  })();
+</script>
