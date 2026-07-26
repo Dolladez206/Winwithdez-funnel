@@ -38,19 +38,16 @@ python3 -m http.server 8000
 `index.html`. Placeholder testimonials and stats are marked in context; swap
 them for real ones.
 
-**Lead capture (Mailchimp)** — the opt-in forms subscribe leads straight to
-your Mailchimp audience, no server required. To go live, paste **one value**:
+**Lead capture (Kit / ConvertKit)** — the opt-in forms post to **Kit form
+`9723242`** at `https://app.kit.com/forms/9723242/subscriptions`, the same form
+the live site uses. Kit's automation Rule then adds the subscriber to the
+**"Win With Dez — Nurture"** sequence. No backend and no API key are needed —
+this is Kit's public form endpoint.
 
-1. In Mailchimp: **Audience → Sign up forms → Embedded form**.
-2. Copy the URL inside `<form action="…">` — it ends in
-   `/subscribe/post?u=XXXX&id=YYYY`.
-3. Open `script.js` and set that as `MAILCHIMP_URL` near the top.
-
-That's it. The script converts it to Mailchimp's JSONP endpoint automatically,
-so it works on any static host with no backend and no CORS setup. "Already
-subscribed" is treated as success; other errors show Mailchimp's message under
-the form. While `MAILCHIMP_URL` is left blank, emails are saved to
-`localStorage` so nothing is lost during setup.
+`script.js` submits the form via `fetch` and redirects to `thank-you.html` on
+success; if JS is disabled the form still POSTs natively to the same URL and
+Kit shows its hosted confirmation page. See `kit-automation-setup.md` (on the
+Kit branches) for the full sequence + Rule setup.
 
 ## Deploy
 
