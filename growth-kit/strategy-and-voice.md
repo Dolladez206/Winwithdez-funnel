@@ -53,9 +53,12 @@ her brand. Short version: **she films the moment, I make it look premium.**
 
 ---
 
-## Voice
-Desiree: beautiful, smart, fun, energetic, warm, real. First-person, joyful,
-confident — never desperate, never pitchy. She's *living* it and inviting you in.
+## Voice & vibe (confirmed from her Facebook)
+Desiree: elegant, beautiful, warm, energetic — she posts **celebratory, proud,
+life-and-family moments** ("walking with pride while celebrating…"), dressed up
+and classy. The tone is joyful and aspirational, never pitchy. She's *living* a
+beautiful life and inviting you into it. Content celebrates milestones, family,
+pride, and freedom — the life is the message.
 
 *(Her exact voice + aesthetic will be matched to her actual videos — see the
 example she's sending. The old "Costco / honest-pitch" calendar is retired;
